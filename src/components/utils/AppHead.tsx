@@ -11,8 +11,8 @@ export const AppHead: FC<Props> = () => {
       <DefaultSeo {...constants.meta} />
       <NextHead>
         <meta
-          name="viewport"
           content="width=device-width, initial-scale=1,user-scalable=no"
+          name="viewport"
         />
       </NextHead>
     </>
